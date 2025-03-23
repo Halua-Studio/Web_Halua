@@ -1,11 +1,12 @@
 import LittlePortfolioSection from "./LittlePortfolioSection.jsx";
 import CardSection from "./Cards.jsx";
+import Banner from "./Banner.jsx";
 
 const Home = () => {
   return (
     <>
-      <CardSection></CardSection>
-      <LittlePortfolioSection></LittlePortfolioSection>
+        <Banner></Banner>
+        <CardSection></CardSection>
     </>
   );
 };

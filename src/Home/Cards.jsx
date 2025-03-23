@@ -14,7 +14,7 @@ const Card = (props) => {
 }
 const CardSection = () => {
   return (
-    <section className="container mx-auto px-4 py-8">
+    <section className="container mx-auto my-42 px-4 py-8">
       <div className="grid grid-cols-3 gap-13">
         <Card
             BackgroundColor="bg-cyan-500"

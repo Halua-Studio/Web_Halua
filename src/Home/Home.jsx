@@ -1,4 +1,4 @@
-import LittlePortfolioSection from './LittlePortfolioSection.jsx'
+import Section1 from './Section1.jsx'
 
 const Home = () => {
 
@@ -6,7 +6,7 @@ const Home = () => {
     
     return (
         <
-        LittlePortfolioSection
+        Section1
         />
     );
 };

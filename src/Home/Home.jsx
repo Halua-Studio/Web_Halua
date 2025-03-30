@@ -1,4 +1,4 @@
-import LittlePortfolioSection from './LittlePortfolioSection.jsx'
+import SectionForm from './SectionForm.jsx'
 
 const Home = () => {
 
@@ -6,7 +6,7 @@ const Home = () => {
     
     return (
         <
-        LittlePortfolioSection
+        SectionForm
         />
     );
 };

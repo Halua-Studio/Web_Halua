@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col h-full w-85">
         <div className={`relative h-43 ${props.BackgroundColor}` }>
             <h2 className="absolute bottom-0 left-0 text-white font-bold text-5xl -ml-1">{props.title}</h2>
         </div>
@@ -16,7 +16,7 @@ const Card = (props) => {
 const CardSection = () => {
   return (
     <section className="container mx-auto my-42 px-4 py-8">
-      <div className="grid grid-cols-3 gap-13">
+      <div className="grid grid-cols-3 gap-8">
         <Card
             BackgroundColor="bg-cyan-500"
             title="WEB"

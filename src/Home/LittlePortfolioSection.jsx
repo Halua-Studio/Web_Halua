@@ -1,5 +1,7 @@
 
-import React from 'react';
+import React, {useState} from 'react';
+import PopUpDetail from './PopUpDetail' // Importar el Pop-Up
+
 
 const ImageStack =(props) =>{
 
@@ -26,7 +28,7 @@ const PortfolioCenter =(props) =>{
             </div>
             <div className='flex flex-col gap-[30px]'>
                 <img src={props.imgCenter} alt={props.altImgCenter} className='w-[525px] h-[287px]' />
-                <button className='w-[315px] h-[27px] border-b-2 border-[#4c4c4c] border-solid text-[#4c4c4c] font-normal '>{props.button}</button>
+                <button className='w-[315px] h-[27px] border-b-2 border-[#4c4c4c] border-solid text-[#4c4c4c] font-normal ' onClick={props.onButtonClick}>{props.button}</button>
             </div>
 
         </div>
@@ -38,6 +40,18 @@ const PortfolioCenter =(props) =>{
 
 const LittlePortfolioSection =() =>{
 
+    const [showPopup, setShowPopup] = useState(false);
+
+    const handleOpenPopup = () => {
+      setShowPopup(true); // Mostrar el Pop-Up
+    };
+
+    const handleClosePopup = () => {
+      setShowPopup(false); // Cerrar el Pop-Up
+    };
+    
+
+
     return (
         <section className='flex flex-row justify-center gap-[15px] '>
             <ImageStack
@@ -48,12 +62,13 @@ const LittlePortfolioSection =() =>{
             titleBlack='OUR' titleporple='WORK.' text='Así es Halua.'
             imgCenter="\public\img\big.webp" altImgCenter="altCenter"
             button='more'
-            buton='hola'
+            onButtonClick={handleOpenPopup}
             />
             <ImageStack
             img1="\public\img\ImagenRoja.webp" altImg1="altImg3"
             img2="\public\img\ImagenNegra.webp" altImg2="altImg4"           
             />
+            {showPopup && <PopUpDetail onClose={handleClosePopup} />}
         </section>
     );
 

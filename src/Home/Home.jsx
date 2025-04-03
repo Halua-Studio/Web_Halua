@@ -1,22 +1,15 @@
-import Navbar from './Navbar.jsx'
-import Section1 from './Section1.jsx'
-import Footer from './Footer.jsx'
+import CardSection from "./Cards.jsx";
+import Banner from "./Banner.jsx";
 
 const Home = () => {
+  return (
+    <div className="p-0">
+        <Banner></Banner>
+        <CardSection></CardSection>
+    </div>
+        
+  );
 
-    return (
-        <div>
-        <
-        Navbar
-        />
-        <
-        Section1
-        />
-        <
-        Footer
-        />
-        </div>
-    );
 };
 
 export default Home;

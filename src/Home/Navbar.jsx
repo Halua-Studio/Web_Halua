@@ -8,7 +8,6 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4">
         <img src={logo} alt="Logo de Halua Studio" className="h-5" /> {/* Ajusta el tamaño del logo */}
       </div>
-
       
         {/* Contenedor de la línea y los puntos */}
       <div className="flex-1 flex items-center">
@@ -21,26 +20,9 @@ const Navbar = () => {
         </div>
     </div>
     </nav>
-
-    
   );
 };
 
-/*
-const Navbar = () => {
-  return (
-    <nav className="bg-white shadow-md fixed w-full top-0 z-50">
-      <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-        //Logo
-        <div className="">
-         <img src={props.img1} alt={props.altImg1} className='' />
-        </div>
 
-        
-      </div>
-    </nav>
-  );
-};
-*/
 
 export default Navbar;

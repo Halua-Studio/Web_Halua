@@ -28,33 +28,6 @@ const Banner = () => {
         </div>
       </div>
     </div>
-
-    /*
-        <div className="w-full border-t border-b border-blue-600">
-          <div className="relative max-w-6xl mx-auto h-[300px]">
-            {/* Background image }
-            <div className="absolute top-0 right-0 w-[65%] h-full">
-              <img src={imagen} alt="imagen" className="w-full h-full object-cover contrast-125" />
-            </div>
-    
-            {/* Text content that overlaps with the image }
-            <div className="absolute top-0 left-0 z-10 w-[45%] h-full flex flex-col justify-center pl-8">
-              <div className="bg-transparent bg-opacity-0 p-6 -mr-20">
-                <h1 className="text-4xl font-bold leading-tight">
-                  <span className="text-gray-700">CREAMOS Y</span>
-                  <br />
-                  <span className="text-amber-500">CRECEMOS JUNTOS.</span>
-                </h1>
-    
-                {/* Separator line }
-                <div className="w-16 h-0.5 bg-gray-400 my-4"></div>
-    
-                <h2 className="text-2xl text-gray-700">Así es Halua.</h2>
-              </div>
-            </div>
-          </div>
-        </div> 
-        */
   );
 };
 

@@ -16,7 +16,7 @@ const Card = (props) => {
 const CardSection = () => {
   return (
     <section className="container mx-auto my-42 px-4 py-8">
-      <div className="grid grid-cols-3 gap-8">
+      <div className="grid grid-cols-3 gap-30 pl-2">
         <Card
             BackgroundColor="bg-cyan-500"
             title="WEB"
@@ -25,12 +25,12 @@ const CardSection = () => {
         <Card
             BackgroundColor="bg-violet-950"
             title="BRANDING"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit asperiores amet rem"
+            description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti nisi provident atque, harum rem labore eligendi nulla quasi, laudantium eveniet ipsum nam neque nobis eius est ab magni enim quae!"
         />
         <Card
             BackgroundColor="bg-amber-500"
             title="ILUSTRATION"
-            description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit asperiores amet rem"
+            description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti nisi provident atque, harum rem labore eligendi nulla quasi, laudantium eveniet ipsum nam neque nobis eius est ab magni enim quae!"
         />
       </div>
     </section>

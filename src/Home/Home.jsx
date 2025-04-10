@@ -5,6 +5,7 @@ import CardSection from "./Cards.jsx";
 import LittlePortfolioSection from "./LittlePortfolioSection.jsx";
 import SectionForm from "./SectionForm.jsx";
 import Footer from "./Footer.jsx";
+import Nollenado from "./PopUpForm.jsx";
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
         <CardSection/>
         <LittlePortfolioSection/>
         <SectionForm/>
+        <Nollenado/>
       </main>
       <footer>
         <Footer/>

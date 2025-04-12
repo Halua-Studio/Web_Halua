@@ -8,7 +8,7 @@ const Banner = () => {
         <div className="absolute top-0 right-0 w-[65%] h-full">
           <img
             src={imagen}
-            alt="imagen"
+            alt="Gymbro"
             className="w-full h-full object-cover grayscale  scale-x-[1.146]"
           ></img>
         </div>

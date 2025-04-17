@@ -2,11 +2,11 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div className="flex flex-col h-full w-85">
-        <div className={`relative h-43 ${props.BackgroundColor}` }>
+    <div className="flex flex-col">
+        <div className={`relative w-[21.5625rem] h-[8.875rem]  ${props.BackgroundColor}` }>
             <h2 className="absolute bottom-0 left-0 text-white font-bold text-5xl -ml-1">{props.title}</h2>
         </div>
-        <div className="pt-6 bg-white flex-grow">
+        <div className="pt-6 bg-white flex-grow w-[21.5625rem] h-[8.875rem]">
             <p className="text-gray-700 ">{props.description}</p>
         </div>
     </div>
@@ -15,7 +15,7 @@ const Card = (props) => {
 
 const CardSection = () => {
   return (
-    <section className="container mx-auto my-42 px-4 py-8">
+    <section className="container mx-auto my-42 px-4 py-8 w-[88.4375rem] h-[26.5rem]">
       <div className="grid grid-cols-3 gap-30 pl-2">
         <Card
             BackgroundColor="bg-cyan-500"

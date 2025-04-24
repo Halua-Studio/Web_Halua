@@ -4,10 +4,10 @@ const Card = (props) => {
   return (
     <div className="flex flex-col">
         <div className={`relative w-[21.5625rem] h-[8.875rem]  ${props.BackgroundColor}` }>
-            <h2 className="absolute bottom-0 left-0 text-white font-bold text-5xl -ml-1">{props.title}</h2>
+            <h2 className="absolute -bottom-2 left-0 text-white font-extrabold text-[37.9px] -ml-1">{props.title}</h2>
         </div>
         <div className="pt-6 bg-white flex-grow w-[21.5625rem] h-[8.875rem]">
-            <p className="text-gray-700 ">{props.description}</p>
+            <p className="text-gray-700 font-normal">{props.description}</p>
         </div>
     </div>
   )

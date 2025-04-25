@@ -1,0 +1,57 @@
+[
+
+    {
+        "id": 1,
+        "ImagenPortada": "/public/img/Portada.png",
+        "altPortada":1 ,
+        "Nombre": "VERSUAL",
+        "Trabajo": "Branding.",
+        "Descripcion": "    Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.",
+        "logo":"public/img/PortadaVersual.png",
+        "ImagenCollage1":"public/img/collage1.png" ,
+        "AltImagenCollage1":1,
+        "ImagenCollage2": "public/img/collage2.png" ,
+        "AltImagenCollage2":1,
+        "ImagenCollage3": "public/img/collage3.png",
+        "AltImagenCollage3":1,
+        "ImagenCollage4": "public/img/collage4.png",
+        "AltImagenCollage4": 1
+    },
+
+    {
+        "id": 2,
+        "ImagenPortada":1,
+        "altPortada":1 ,
+        "Nombre":"ACCIONAR" ,
+        "Trabajo": "Branding.",
+        "Descripcion": "  Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.",
+        "logo":1,
+        "ImagenCollage1":1 ,
+        "AltImagenCollage1":1,
+        "ImagenCollage2":1 ,
+        "AltImagenCollage2":1,
+        "ImagenCollage3": 1,
+        "AltImagenCollage3":1,
+        "ImagenCollage4": 1,
+        "AltImagenCollage4": 1
+    },
+
+    {
+        "id": 3,
+        "ImagenPortada":1,
+        "altPortada":1 ,
+        "Nombre":"HELENOR" ,
+        "Trabajo": "Branding.",
+        "Descripcion": "  Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.Lorem ipsum dolor sit amet consectetur. Sed etiam ac in felis aliquam quis malesuada vitae.. Proin est pharetra odio lectus mauris.",
+        "logo":1,
+        "ImagenCollage1":1 ,
+        "AltImagenCollage1":1,
+        "ImagenCollage2":1 ,
+        "AltImagenCollage2":1,
+        "ImagenCollage3": 1,
+        "AltImagenCollage3":1,
+        "ImagenCollage4": 1,
+        "AltImagenCollage4": 1
+    }
+
+]

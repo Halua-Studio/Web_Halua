@@ -14,7 +14,7 @@ const Home = () => {
       <header>
         <Navbar/>
       </header>
-      <main>
+      <main className="flex flex-col justify-center">
         <Section1/>
         <Banner/>
         <CardSection/>

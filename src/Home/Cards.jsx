@@ -2,6 +2,7 @@ import React from "react";
 
 const Card = (props) => {
   return (
+
     <div className="flex flex-col">
       <div className={`relative w-[21.5625rem] h-[8.875rem]  ${props.BackgroundColor}` }>
         <h2 className="absolute -bottom-2 left-0 text-white font-extrabold text-[37.9px] -ml-1">{props.title}</h2>

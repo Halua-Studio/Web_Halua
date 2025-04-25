@@ -1,7 +1,6 @@
 
 import React, {useState} from 'react';
-import PopUpDetail from './PopUpDetail' // Importar el Pop-Up
-
+import PopUpnE from './PopUp/PopUpnE';
 
 const ImageStack =(props) =>{
 
@@ -28,7 +27,7 @@ const PortfolioCenter =(props) =>{
             </div>
             <div className='flex flex-col gap-[30px]'>
                 <img src={props.imgCenter} alt={props.altImgCenter} className='w-[525px] h-[287px]' />
-                <button className='w-[315px] h-[27px] border-b-2 border-[#4c4c4c] border-solid text-[#4c4c4c] font-normal ' onClick={props.onButtonClick}>{props.button}</button>
+                <button className='w-[315px] h-[27px] border-b-2 border-[#4c4c4c] border-solid text-[#4c4c4c] font-normal ' onClick={() => props.onButtonClick(props.projectId)}>{props.button}</button>
             </div>
 
         </div>
@@ -41,19 +40,23 @@ const PortfolioCenter =(props) =>{
 const LittlePortfolioSection =() =>{
 
     const [showPopup, setShowPopup] = useState(false);
+    const [selectedId, setSelectedId] = useState(null);
 
-    const handleOpenPopup = () => {
-      setShowPopup(true); // Mostrar el Pop-Up
+
+    const handleOpenPopup = (projectId) => {
+        setSelectedId(projectId);
+        setShowPopup(true); // Mostrar el Pop-Up
     };
 
     const handleClosePopup = () => {
-      setShowPopup(false); // Cerrar el Pop-Up
+        setShowPopup(false);
+        setSelectedId(null);      // Cerrar el Pop-Up
     };
-    
+
 
 
     return (
-        <section className='flex flex-row justify-center gap-[15px] '>
+        <section className='flex flex-row justify-center gap-[15px] w-full h-max'>
             <ImageStack
             img1="\public\img\Rectangle-4.webp" altImg1="ImagenJugador de la seccion"
             img2="\public\img\ImagenAzul.webp" altImg2="altImg2"           
@@ -62,13 +65,16 @@ const LittlePortfolioSection =() =>{
             titleBlack='OUR' titleporple='WORK.' text='Así es Halua.'
             imgCenter="\public\img\big.webp" altImgCenter="altCenter"
             button='more'
-            onButtonClick={handleOpenPopup}
+            onButtonClick={handleOpenPopup} projectId={1}
+
             />
             <ImageStack
             img1="\public\img\ImagenRoja.webp" altImg1="altImg3"
             img2="\public\img\ImagenNegra.webp" altImg2="altImg4"           
             />
-            {showPopup && <PopUpDetail onClose={handleClosePopup} />}
+            {showPopup && selectedId && (
+                <PopUpnE selectedId={selectedId} isOpen={showPopup} onClose={handleClosePopup} />
+            )}
         </section>
     );
 

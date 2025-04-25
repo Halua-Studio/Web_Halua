@@ -3,7 +3,7 @@ import footer from '../assets/Footer.png';
 
 const Footer = () => {
   return (
-    <footer className="py-8">
+    <footer className="py-8 w-full h-max">
       <div className="container mx-auto px-6 text-center">
         <div className="flex justify-center space-x-6 mb-4">
           <a href="#" className="text-gray-700 hover:text-purple-500">

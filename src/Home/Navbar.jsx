@@ -3,7 +3,7 @@ import logo from '../assets/Halua.png'; // Asegúrate de importar tu logo
 
 const Navbar = () => {
   return (
-    <nav className="bg-white fixed w-full top-0 z-50">
+    <nav className="bg-white fixed w-full top-0 z-50 ">
       {/* Contenedor del logo */}
       <div className="container mx-auto px-6 py-4">
         <img src={logo} alt="Logo de Halua Studio" className="h-5" /> {/* Ajusta el tamaño del logo */}

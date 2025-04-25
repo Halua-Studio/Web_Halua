@@ -3,7 +3,7 @@ import React from 'react';
 
 const Section1 = () => {
     return (
-      <section className="container mx-auto px-6 py-20 mt-16">
+      <section className="container mx-auto px-6 py-20 mt-16 w-full h-max">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Columna izquierda */}
           <div>

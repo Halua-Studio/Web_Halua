@@ -50,7 +50,7 @@ const PopupnE = ({ selectedId, onClose }) => {
 
     return (
         <div className="fixed inset-0 bg-black/90 flex items-center justify-center z-50" onClick={handleBackdropClick}>
-            <div className="absolute overflow-y-auto bg-white w-[77.81rem] h-[655px] p-8 shadow-lg">
+            <div className="absolute overflow-y-auto flex flex-col jus items-center bg-white w-[77.81rem] h-[655px] shadow-lg">
                 <ProjectHeader
                 srcPortada={projectData.ImagenPortada}
                 altPortada={projectData.altPortada}

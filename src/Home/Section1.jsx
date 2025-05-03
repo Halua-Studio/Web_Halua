@@ -3,26 +3,24 @@ import React from 'react';
 
 const Section1 = () => {
     return (
-      <section className="container mx-auto px-6 py-20 mt-16 w-full h-max">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-          {/* Columna izquierda */}
-          <div>
-            <h1 className="text-6xl font-bold text-gray-800">
+      <section className="mt-[223px] w-full h-max flex flex-row gap-[30px] items-center justify-center">
+          <div className='w-[856px] h-max'>
+            <h2 className="text-[89.79px] leading-16 font-bold text-gray-800">
               WE'RE
-            </h1>
-            <h1 className="text-6xl font-bold text-purple-800">
+            </h2>
+            <h2 className="text-[89.79px] leading-22 font-bold text-purple-800">
               PROFESSIONALS.
-            </h1>
-            <hr className='mt-2'/>
-            <h3 className="text-4xl font-bold text-gray-600 mb-4">
+            </h2>
+            <div className="absolute w-[524px] border-b-2 border-[#4C4C4C] left-0"></div>
+            <h1 className="text-4xl font-bold text-gray-600 mb-4">
               We're Halua.studio
-            </h3>
-            <small className="leading-20 text-gray-500">
+            </h1>
+            <small className="leading-20 text-gray-500 top-0 ">
               Medellin, Col.
             </small>
           </div>
-          {/* Columna derecha */}
-          <div>
+          
+          <div className='w-[438px]'>
             <p className="text-gray-700 leading-relaxed">
             Convierte tu idea en una marca poderosa. Nosotros te ayudamos a construirla desde cero.
             </p>
@@ -47,9 +45,8 @@ const Section1 = () => {
                     <div></div>
                 </div>
             </div>
-        </div>
-            
-        </div>
+          </div>
+
       </section>
     );
   };

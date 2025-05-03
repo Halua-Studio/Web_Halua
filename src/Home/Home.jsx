@@ -5,7 +5,6 @@ import CardSection from "./Cards.jsx";
 import LittlePortfolioSection from "./LittlePortfolioSection.jsx";
 import SectionForm from "./SectionForm.jsx";
 import Footer from "./Footer.jsx";
-import { Nollenado, Llenado } from "./PopUpForm.jsx";
 
 
 const Home = () => {
@@ -14,14 +13,12 @@ const Home = () => {
       <header>
         <Navbar/>
       </header>
-      <main className="flex flex-col justify-center">
+      <main className="flex flex-col justify-center mx-[60px]">
         <Section1/>
         <Banner/>
         <CardSection/>
         <LittlePortfolioSection/>
         <SectionForm/>
-        <Llenado/>
-        <Nollenado/>
       </main>
       <footer>
         <Footer/>

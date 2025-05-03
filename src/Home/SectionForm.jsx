@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import FormModal from './FormModal';
+import PopUpForm from './PopUpForm';
 
 const ContactForm = (props) => {
     const [formData, setFormData] = useState({
@@ -9,11 +9,7 @@ const ContactForm = (props) => {
         number: ''
     });
 
-    const [modalData, setModalData] = useState({
-        show: false,
-        title: '',
-        message: ''
-    });
+    const [popupType, setPopupType] = useState(null);
 
     const handleChange = (e) => {
         setFormData({
@@ -27,19 +23,9 @@ const ContactForm = (props) => {
         const { name, email, address, number } = formData;
 
         if (!name || !email || !address || !number) {
-            setModalData({
-                show: true,
-                title: "Falta algo",
-                message: "Revisa la información."
-            });
+            setPopupType("error"); // falta llenar datos
         } else {
-            setModalData({
-                show: true,
-                title: "¡Todo salió bien!",
-                message: "Halua se comunicará pronto."
-            });
-            // Opcional: resetear campos
-            // setFormData({ name: '', email: '', address: '', number: '' });
+            setPopupType("success"); 
         }
     };
 
@@ -64,12 +50,13 @@ const ContactForm = (props) => {
                     <button className="w-[315px] border-b border-gray-700 outline-none p-2">{props.button}</button>
                 </div>
             </form>
-            <FormModal
-                show={modalData.show}
-                title={modalData.title}
-                message={modalData.message}
-                onClose={() => setModalData({ ...modalData, show: false })}
-            />
+            {/* PopUpForm cuando corresponda */}
+            {popupType && (
+                <PopUpForm
+                    type={popupType}
+                    onClose={() => setPopupType(null)}
+                />
+            )}
         </div>
     );
 }

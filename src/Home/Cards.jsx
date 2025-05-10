@@ -7,8 +7,8 @@ const Card = (props) => {
       <div className={`relative w-[21.5625rem] h-[8.875rem]  ${props.BackgroundColor}` }>
         <h2 className="absolute -bottom-2 left-0 text-white font-extrabold text-[37.9px] -ml-1">{props.title}</h2>
       </div>
-      <div className="pt-6 bg-white flex-grow w-[21.5625rem] h-[8.875rem]">
-        <p className="text-gray-700 font-normal">{props.description}</p>
+      <div className="pt-[26px] bg-white flex-grow w-[21.5625rem] h-max">
+        <p className="text-[#4C4C4C] font-normal">{props.description}</p>
       </div>
     </div>
   )
@@ -16,20 +16,20 @@ const Card = (props) => {
 
 const CardSection = () => {
   return (
-    <section className="container mx-auto my-42 px-4 py-8 w-[88.4375rem] h-[26.5rem]">
-      <div className="grid grid-cols-3 gap-30 pl-2">
+    <section className="items-center w-max max-w-[77.8125rem] h-full self-center mb-[200px]">
+      <div className="flex flex-row justify-between gap-[105px]">
         <Card
-          BackgroundColor="bg-cyan-500"
+          BackgroundColor="bg-[#18CFED]"
           title="WEB"
           description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti nisi provident atque, harum rem labore eligendi nulla quasi, laudantium eveniet ipsum nam neque nobis eius est ab magni enim quae!"
         />
         <Card
-          BackgroundColor="bg-violet-950"
+          BackgroundColor="bg-[#4C3ACA]"
           title="BRANDING"
           description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti nisi provident atque, harum rem labore eligendi nulla quasi, laudantium eveniet ipsum nam neque nobis eius est ab magni enim quae!"
         />
         <Card
-          BackgroundColor="bg-amber-500"
+          BackgroundColor="bg-[#FF9E10]"
           title="ILUSTRATION"
           description="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deleniti nisi provident atque, harum rem labore eligendi nulla quasi, laudantium eveniet ipsum nam neque nobis eius est ab magni enim quae!"
         />

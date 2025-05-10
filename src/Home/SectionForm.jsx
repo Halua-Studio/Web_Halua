@@ -70,7 +70,7 @@ const TitleForm =(props) =>{
             <h2 className="text-[67.34px] leading-12 font-bold text-[#4C4C4C]">{props.titleBlack}</h2>
             <h2 className="text-[67.34px] leading-3 font-bold text-[#18CFED]">{props.titleporple}</h2>
             <hr className="absolute left-[-60px] w-[676px] border-1 bg-[#4C4C4C] mt-32"></hr>
-            <h3 className="text-[37.9px] leading-16 text-[#4C4C4C] mb-4 font-extrabold">{props.text}</h3>
+            <h3 className="text-[50.52px] leading-16 text-[#4C4C4C] mb-4 font-extrabold">{props.text}</h3>
         </div>
     );
 }

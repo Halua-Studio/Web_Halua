@@ -5,7 +5,6 @@ import CardSection from "./Cards.jsx";
 import LittlePortfolioSection from "./LittlePortfolioSection.jsx";
 import SectionForm from "./SectionForm.jsx";
 import Footer from "./Footer.jsx";
-import Seccion from "./Seccion.jsx";
 
 
 const Home = () => {

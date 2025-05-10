@@ -12,19 +12,6 @@ const ImageStack =(props) =>{
     );
 }
 
-/*
-            <div>
-            <h2 className='text-[67.34px] font-extrabold pb-0 mb-0'>
-                <span className="text-[#4c4c4c] block leading-20">{props.titleBlack}{" "}</span>
-                <span className="text-[#4C3ACA] block leading-20">{props.titleporple}{" "}</span></h2>
-                <h4 className='text-[#4c4c4c] text-[37.9px] w-[345px] font-extrabold border-t-2 border-[#4c4c4c]'>{props.text}</h4>
-            </div>
-            <div className='flex flex-col gap-[30px]'>
-                <img src={props.imgCenter} alt={props.altImgCenter} className='w-[525px] h-[287px]' />
-                <button className='w-[315px] h-[27px] border-b-2 border-[#4c4c4c] border-solid text-[#4c4c4c] font-normal ' onClick={() => props.onButtonClick(props.projectId)}>{props.button}</button>
-            </div>
-*/
-
 
 const PortfolioCenter =(props) =>{
 
@@ -44,8 +31,6 @@ const PortfolioCenter =(props) =>{
         </div>
     );
 }
-
-
 
 
 const LittlePortfolioSection =() =>{

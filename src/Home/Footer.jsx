@@ -18,7 +18,7 @@ const Footer = () => {
           
         </div>
 
-          <p className="text-[12px] text-gray-400 text-center w-[524px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloremque illum maiores et dolores similique consequatur eveniet culpa ipsam libero repudiandae, sunt laborum voluptas vel corporis officiis totam suscipit quaerat?</p>       
+          <p className="text-[12px] text-[#4C4C4C] text-center w-[524px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam doloremque illum maiores et dolores similique consequatur eveniet culpa ipsam libero repudiandae, sunt laborum voluptas vel corporis officiis totam suscipit quaerat?</p>       
           
           <img src={footer} alt="Logo de Halua Studio " className="w-[165px] h-[22px]" /> 
           

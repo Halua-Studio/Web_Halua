@@ -29,12 +29,17 @@ const PopupnE = ({ selectedId, onClose }) => {
     // Navegación anterior / siguiente
     const handleNavigate = (direction) => {
       const currentIndex = allProjects.findIndex((p) => p.id === currentId);
-      const nextIndex = direction === "next" ? currentIndex + 1 : currentIndex - 1;
-  
-      if (nextIndex >= 0 && nextIndex < allProjects.length) {
-        const nextProject = allProjects[nextIndex];
-        setCurrentId(nextProject.id);
+
+      let nextIndex;
+
+      if (direction === "next") {
+        nextIndex = (currentIndex + 1) % allProjects.length; // vuelve al primero si pasa del último
+      } else {
+        nextIndex = (currentIndex - 1 + allProjects.length) % allProjects.length; // va al último si baja del primero
       }
+
+      const nextProject = allProjects[nextIndex];
+      setCurrentId(nextProject.id);
     };
 
 

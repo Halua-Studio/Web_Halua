@@ -19,10 +19,13 @@ const Home = () => {
         <CardSection/>
         <LittlePortfolioSection/>
         <SectionForm/>
+
       </main>
       <footer>
         <Footer/>
       </footer>
+
+      
     </>
         
   );

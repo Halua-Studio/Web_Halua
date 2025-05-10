@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="bg-white w-full top-0 ">
       {/* Contenedor del logo */}
-      <div className="w-full mx-[60px] py-5">
+      <div className="w-max mx-[60px] py-5">
         <img src={logo} alt="Logo de Halua Studio" className="w-[75px] h-[19px]" />
       </div>
       

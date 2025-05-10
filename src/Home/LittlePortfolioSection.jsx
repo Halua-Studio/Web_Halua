@@ -13,17 +13,15 @@ const ImageStack =(props) =>{
 }
 
 
-
-
 const PortfolioCenter =(props) =>{
 
     return (
         <div className='flex flex-col gap-10'>
-            <div>
-            <h2 className='text-[67.34px] font-extrabold pb-0 mb-0'>
-                <span className="text-[#4c4c4c] block">{props.titleBlack}{" "}</span>
-                <span className="text-[#4C3ACA] block">{props.titleporple}{" "}</span></h2>
-                <h4 className='text-[#4c4c4c] text-[37.9px] w-[345px] font-extrabold border-t-2 border-[#4c4c4c]'>{props.text}</h4>
+            <div className='w-max self-start' >
+                <h2 className="text-[67.34px] leading-12 font-bold text-[#4C4C4C]">{props.titleBlack}</h2>
+                <h2 className="text-[67.34px] leading-17 font-bold text-[#4C3ACA]">{props.titleporple}</h2>
+                <hr className="w-[345px] h-[2px] bg-[#4C4C4C] mt-4.5"></hr>
+                <h3 className="text-[37.9px] leading-10 text-[#4C4C4C] font-extrabold">{props.text}</h3>
             </div>
             <div className='flex flex-col gap-[30px]'>
                 <img src={props.imgCenter} alt={props.altImgCenter} className='w-[525px] h-[287px]' />
@@ -33,8 +31,6 @@ const PortfolioCenter =(props) =>{
         </div>
     );
 }
-
-
 
 
 const LittlePortfolioSection =() =>{
@@ -56,7 +52,7 @@ const LittlePortfolioSection =() =>{
 
 
     return (
-        <section className='flex flex-row justify-center gap-[15px] w-full h-max'>
+        <section className='flex flex-row justify-center gap-[15px] w-full h-max mb-[200px]'>
             <ImageStack
             img1="\public\img\Rectangle-4.webp" altImg1="ImagenJugador de la seccion"
             img2="\public\img\ImagenAzul.webp" altImg2="altImg2"           

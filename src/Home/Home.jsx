@@ -20,7 +20,6 @@ const Home = () => {
         <CardSection/>
         <LittlePortfolioSection/>
         <SectionForm/>
-        <Seccion/>
 
       </main>
       <footer>

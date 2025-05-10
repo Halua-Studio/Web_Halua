@@ -30,8 +30,8 @@ const ContactForm = (props) => {
     };
 
     return (
-        <div className="flex justify-center items-center w-[676px]">
-            <form onSubmit={handleSubmit} className="w-full max-w-lg p-8">
+        <div className="flex w-[676px]">
+            <form onSubmit={handleSubmit} className="w-full max-w-lg">
                 <div className="grid gap-4">
                     <label className="block">
                         <input  name="name" value={formData.name} onChange={handleChange} type="text" placeholder={props.name} className="w-full border-b border-gray-700 outline-none p-2" />
@@ -66,11 +66,11 @@ const ContactForm = (props) => {
 const TitleForm =(props) =>{
 
     return (
-        <div>
-        <h2 className='text-[67.34px] font-extrabold pb-0 mb-0 w-[676px]'>
-            <span className="text-[#4c4c4c] block">{props.titleBlack}{" "}</span>
-            <span className="text-[#18CFED] block">{props.titleporple}{" "}</span></h2>
-            <h4 className='text-[#4c4c4c] text-[50.52px] font-extrabold border-t-2 border-[#4c4c4c]'>{props.text}</h4>
+        <div className='flex flex-col w-full h-max gap-[30px] items-start self-start pt-7' >
+            <h2 className="text-[67.34px] leading-12 font-bold text-[#4C4C4C]">{props.titleBlack}</h2>
+            <h2 className="text-[67.34px] leading-3 font-bold text-[#18CFED]">{props.titleporple}</h2>
+            <hr className="absolute left-[-60px] w-[676px] border-1 bg-[#4C4C4C] mt-32"></hr>
+            <h3 className="text-[37.9px] leading-16 text-[#4C4C4C] mb-4 font-extrabold">{props.text}</h3>
         </div>
     );
 }
@@ -81,7 +81,7 @@ const TitleForm =(props) =>{
 const SectionForm =() =>{
 
     return (
-        <section className='flex flex-row gap-[75px] justify-center w-full h-max'>
+        <section className='relative flex flex-row items-betweend w-full max-w-[77.8125rem] h-full self-center justify-between gap-[75px] mb-[153px]'>
             <TitleForm
             titleBlack='QUE' titleporple='ESPERAS?' text='Trabajemos juntos.'
             imgCenter="imgCenter.png" altImgCenter="altCenter"

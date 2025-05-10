@@ -7,7 +7,7 @@ const Section1 = () => {
 
 
       <section className="relative flex flex-col items-center w-max max-w-[77.8125rem] h-full self-center justify-between mt-70 mb-30 gap-67">
-      <div className=' flex flex-row w-full h-max gap-[30px] justify-center items-center'>
+      <div className=' flex flex-row w-full h-max gap-[30px] items-center'>
           <div className='w-[785px] self-center' >
               <h2 className="text-[89.79px] w-full h-max leading-20 font-bold text-[#4C4C4C]">WE'RE</h2>
               <h2 className="text-[89.79px] w-full h-max leading-21 font-bold text-[#4C3ACA]">PROFESSIONALS.</h2>

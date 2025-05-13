@@ -7,10 +7,10 @@ const Section1 = () => {
         <section className="relative flex flex-col items-center w-max max-w-[77.8125rem] h-full self-center justify-between mt-70 mb-[40px] gap-67">
         <div className=' flex flex-row w-full h-max gap-[30px] items-center'>
             <div className='w-[785px] self-center' >
-                <h2 className="text-[89.79px] w-full h-max leading-20 font-bold text-[#4C4C4C]">WE'RE</h2>
-                <h2 className="text-[89.79px] w-full h-max leading-21 font-bold text-[#4C3ACA]">PROFESSIONALS.</h2>
+                <h2 className="font-extrabold text-[89.79px] w-full h-max leading-20  text-[#4C4C4C]">WE'RE</h2>
+                <h2 className="text-[89.79px] w-full h-max leading-21 font-extrabold text-[#4C3ACA]">PROFESSIONALS.</h2>
                 <hr className="absolute left-[-60px] w-[780px] h-[2px] bg-[#4C4C4C]"></hr>
-                <h1 className="text-4xl font-bold leading-10 text-[#4C4C4C] mb-4">We're Halua.studio </h1>
+                <h1 className="text-5xl font-extrabold leading-10 text-[#4C4C4C] my-4">We're Halua.studio </h1>
             </div>
 
             <div className='w-[438px] self-start pt-4'>

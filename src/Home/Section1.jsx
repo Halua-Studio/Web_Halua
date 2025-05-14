@@ -4,7 +4,7 @@ import React from 'react';
 const Section1 = () => {
     return (
 
-        <section className="relative flex flex-col items-center w-max max-w-[77.8125rem] h-full self-center justify-between mt-70 mb-[40px] gap-67">
+    <section className="relative flex flex-col items-center w-max max-w-[77.8125rem] h-full self-center justify-between mt-70 mb-[40px] gap-67">
         <div className=' flex flex-row w-full h-max gap-[30px] items-center'>
             <div className='w-[785px] self-center' >
                 <h2 className="font-extrabold text-[89.79px] w-full h-max leading-20  text-[#4C4C4C]">WE'RE</h2>
@@ -14,7 +14,7 @@ const Section1 = () => {
             </div>
 
             <div className='w-[438px] self-start pt-4'>
-                <p className="text-[16px] w-[438px] h-max text-[#4C4C4C] leading-5">
+                <p className="font- text-[16px] w-[438px] h-max text-[#4C4C4C] leading-5">
                 Convierte tu idea en una marca poderosa. Nosotros te ayudamos a construirla desde cero.
                 </p>
                 <p className=" text-[16px] w-[438px] h-max mt-5 text-gray-500 leading-5">
@@ -26,7 +26,7 @@ const Section1 = () => {
             </div>
         </div>
 
-        <div className="w-full m-auto h-full relative flex flex-row justify-between items-center">
+        <div className="fixed w-full m-auto h-full flex flex-row justify-between items-center">
             <small className=" text-[16px] text-[#4C4C4C] flex">
                 Medellin, Col.
             </small>
@@ -40,7 +40,7 @@ const Section1 = () => {
                 <div className="w-[20.74px] h-[20.74px] bg-[#4C4C4C]"></div>
             </div>
         </div>
-        </section>
+    </section>
 
 
     );

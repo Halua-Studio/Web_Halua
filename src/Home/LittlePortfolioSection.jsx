@@ -25,7 +25,7 @@ const PortfolioCenter =(props) =>{
             </div>
             <div className='flex flex-col gap-[30px]'>
                 <img src={props.imgCenter} alt={props.altImgCenter} className='w-[525px] h-[287px]' />
-                <button className='w-[315px] h-[27px] border-b-2 border-[#4c4c4c] border-solid text-[#4c4c4c] font-normal ' onClick={() => props.onButtonClick(props.projectId)}>{props.button}</button>
+                <button className='w-[315px] h-[27px] border-b-2 border-[#4c4c4c] border-solid text-[#4c4c4c] font-normal cursor-pointer' onClick={() => props.onButtonClick(props.projectId)}>{props.button}</button>
             </div>
 
         </div>

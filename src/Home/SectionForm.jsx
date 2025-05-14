@@ -47,7 +47,7 @@ const ContactForm = (props) => {
                     </label>
                 </div>
                 <div className="flex justify-end mt-6">
-                    <button className="w-[315px] border-b border-gray-700 outline-none p-2">{props.button}</button>
+                    <button className="w-[315px] border-b border-gray-700 outline-none p-2 cursor-pointer">{props.button}</button>
                 </div>
             </form>
             {/* PopUpForm cuando corresponda */}

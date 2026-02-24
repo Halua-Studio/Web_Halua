@@ -7,14 +7,14 @@ const Section1 = () => {
         <section className="relative flex flex-col items-center self-center mt-70 mb-[40px] gap-67 min-h-[10vh]">
         <div className=' flex flex-row gap-[30px] items-center'>
             <div className='w-[785px] self-center' >
-                <h2 className="text-[89.79px] w-full h-max leading-20 font-bold text-[#4C4C4C]">WE'RE</h2>
-                <h2 className="text-[89.79px] w-full h-max leading-21 font-bold text-[#4C3ACA]">PROFESSIONALS.</h2>
+                <h2 className="font-extrabold text-[89.79px] w-full h-max leading-20  text-[#4C4C4C]">WE'RE</h2>
+                <h2 className="text-[89.79px] w-full h-max leading-21 font-extrabold text-[#4C3ACA]">PROFESSIONALS.</h2>
                 <hr className="absolute left-[-60px] w-[780px] h-[2px] bg-[#4C4C4C]"></hr>
-                <h1 className="text-4xl font-bold leading-10 text-[#4C4C4C] mb-4">We're Halua.studio </h1>
+                <h1 className="text-5xl font-extrabold leading-10 text-[#4C4C4C] my-4">We're Halua.studio </h1>
             </div>
 
             <div className='w-[438px] self-start pt-4'>
-                <p className="text-[16px] w-[438px] h-max text-[#4C4C4C] leading-5">
+                <p className="font- text-[16px] w-[438px] h-max text-[#4C4C4C] leading-5">
                 Convierte tu idea en una marca poderosa. Nosotros te ayudamos a construirla desde cero.
                 </p>
                 <p className=" text-[16px] w-[438px] h-max mt-5 text-gray-500 leading-5">
@@ -40,7 +40,7 @@ const Section1 = () => {
                 <div className="w-[20.74px] h-[20.74px] bg-[#4C4C4C]"></div>
             </div>
         </div>
-        </section>
+    </section>
 
 
     );

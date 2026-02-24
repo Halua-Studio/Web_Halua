@@ -59,14 +59,14 @@ const LittlePortfolioSection =() =>{
             />
             <PortfolioCenter 
             titleBlack='OUR' titleporple='WORK.' text='Así es Halua.'
-            imgCenter="/public/img/big.webp" altImgCenter="altCenter"
+            imgCenter="/img/big.webp" altImgCenter="altCenter"
             button='more'
             onButtonClick={handleOpenPopup} projectId={1}
 
             />
             <ImageStack
-            img1="/public/img/ImagenRoja.webp" altImg1="altImg3"
-            img2="/public/img/ImagenNegra.webp" altImg2="altImg4"           
+            img1="/img/ImagenRoja.webp" altImg1="altImg3"
+            img2="/img/ImagenNegra.webp" altImg2="altImg4"           
             />
             {showPopup && selectedId && (
                 <PopUpnE selectedId={selectedId} isOpen={showPopup} onClose={handleClosePopup} />

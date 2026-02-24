@@ -4,8 +4,8 @@ import React from 'react';
 const Section1 = () => {
     return (
 
-        <section className="relative flex flex-col items-center w-max max-w-[77.8125rem] h-full self-center justify-between mt-70 mb-[40px] gap-67">
-        <div className=' flex flex-row w-full h-max gap-[30px] items-center'>
+        <section className="relative flex flex-col items-center self-center mt-70 mb-[40px] gap-67 min-h-[10vh]">
+        <div className=' flex flex-row gap-[30px] items-center'>
             <div className='w-[785px] self-center' >
                 <h2 className="text-[89.79px] w-full h-max leading-20 font-bold text-[#4C4C4C]">WE'RE</h2>
                 <h2 className="text-[89.79px] w-full h-max leading-21 font-bold text-[#4C3ACA]">PROFESSIONALS.</h2>
@@ -26,7 +26,7 @@ const Section1 = () => {
             </div>
         </div>
 
-        <div className="w-full m-auto h-full relative flex flex-row justify-between items-center">
+        <div className="sticky bottom-6 flex justify-between items-center w-full">
             <small className=" text-[16px] text-[#4C4C4C] flex">
                 Medellin, Col.
             </small>

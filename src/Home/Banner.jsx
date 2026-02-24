@@ -1,5 +1,5 @@
   import React from "react";
-  import imagen from "../assets/gymbro.jpg";
+  import imagen1 from "../assets/gymbro.jpg";
 
   const Banner = () => {
     return (
@@ -10,7 +10,7 @@
           <hr className="absolute left-[-60px] bottom-22 w-[766px] border-1 bg-[#4C4C4C] mb-2"/>
           <h3 className="text-[50.52px] font-bold leading-3 text-[#4C4C4C] mt-5">Así es Halua.</h3>
         </div>
-        <img className= "w-max h-[30rem] object-cover scale-x-105 translate-x-[-220px]" src={imagen} alt="Gymbro"></img>
+        <img className= "w-max h-[30rem] object-cover scale-x-105 translate-x-[-220px]" src={imagen1} alt="Gymbro"></img>
       </section>
 
 
@@ -32,7 +32,7 @@
       {/* Imagen con posición desplazada hacia la izquierda */}
       <div className="absolute right-0 w-[55%] h-full overflow-hidden">
         <img
-          src={imagen}
+          src={imagen1}
           alt="Gymbro"
           className="w-full h-full object-cover grayscale scale-x-105 translate-x-[-5rem]"
         />

@@ -55,18 +55,18 @@ const LittlePortfolioSection =() =>{
         <section className='flex flex-row justify-center gap-[15px] w-full h-max mb-[200px]'>
             <ImageStack
             img1="/public/img/Rectangle-4.webp" altImg1="ImagenJugador de la seccion"
-            img2="\public\img\ImagenAzul.webp" altImg2="altImg2"           
+            img2="/public/img/ImagenAzul.webp" altImg2="altImg2"           
             />
             <PortfolioCenter 
             titleBlack='OUR' titleporple='WORK.' text='Así es Halua.'
-            imgCenter="\public\img\big.webp" altImgCenter="altCenter"
+            imgCenter="/public/img/big.webp" altImgCenter="altCenter"
             button='more'
             onButtonClick={handleOpenPopup} projectId={1}
 
             />
             <ImageStack
-            img1="\public\img\ImagenRoja.webp" altImg1="altImg3"
-            img2="\public\img\ImagenNegra.webp" altImg2="altImg4"           
+            img1="/public/img/ImagenRoja.webp" altImg1="altImg3"
+            img2="/public/img/ImagenNegra.webp" altImg2="altImg4"           
             />
             {showPopup && selectedId && (
                 <PopUpnE selectedId={selectedId} isOpen={showPopup} onClose={handleClosePopup} />
